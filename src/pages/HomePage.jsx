@@ -5,19 +5,20 @@ const HomePage = () => {
   const features = [
     {
       title: "소개",
-      description: "제 소개입니다.",
+      description: "정보통신공학과 4학년 김동욱",
+      
     },
     {
       title: "프로젝트",
-      description: "제가 만든 프로젝트들 입니다.",
+      description: "웹디자인,실내위치측정,MCI진단모델델",
     },
     {
       title: "연락처",
-      description: "저에게 연락하는 방법입니다.",
+      description: "denissla@naver.com,010-6692-0126",
     },
     {
-      title: "여러분이 원하는",
-      description: "항목을 새로 만들어 보세요.",
+      title: "수강과목",
+      description: "켑스톤디자인, 소프트웨어 공학,데이터 압축",
     },
   ];
 

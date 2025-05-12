@@ -24,7 +24,8 @@ const LoginPage = ({ onLogin }) => {
             type="text"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
-          />
+            placeholder="example"
+          /><label>(이메일 주소 없이)</label>
         </div>
         <div>
           <label>비밀번호:</label>
@@ -32,6 +33,7 @@ const LoginPage = ({ onLogin }) => {
             type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
+            placeholder="****"
           />
         </div>
         {error && <p className="error">{error}</p>}
